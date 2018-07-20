@@ -17,4 +17,7 @@ function destructivelyRemoveFirstKitten(){
   kittens.shift();
 }
 
-
+function appendKitten(name){
+  [...kittens, name]
+}
+appendKitten('Petunia')
