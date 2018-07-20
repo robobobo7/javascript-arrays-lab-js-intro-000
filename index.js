@@ -8,3 +8,7 @@ function destructivelyPrependKitten(name){
   kittens.unshift(name);
 }
 destructivelyPrependKitten('Petunia')
+
+function destructivelyRemoveLastKitten(){
+  kittens.pop();
+}
